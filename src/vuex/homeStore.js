@@ -1,6 +1,5 @@
 import Vue from 'vue'
-import { API_ROOT } from '../config'
-import { PATIENTINFO, TEST_COUNT } from './mutation-types'
+import { TEST_COUNT } from './mutation-types'
 
 const actions = {
     getCountAdd({ commit }, data) {
