@@ -1,4 +1,4 @@
-# biz-template
+# vue-biz-template
 
 > a base template project of my business
 
@@ -6,7 +6,7 @@
 
     示例： 「版本号：发布功能列表」
 
-## flexible适配方案使用说明
+## flexible 适配方案使用说明
 
 -   当前使用 flexible.js 及 postcss-px2rem 做适配， 并以 750 \* 1334 为设计稿尺寸.
 
@@ -91,4 +91,3 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
