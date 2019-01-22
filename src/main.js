@@ -6,9 +6,12 @@ import router from './router'
 import store from './vuex/store'
 
 // 引用UI组件
+import Toast from './components/biz/Toast'
 import Vant from 'vant'
 import 'vant/lib/vant-css/index.css'
 
+
+Vue.use(Toast)
 Vue.use(Vant)
 Vue.config.productionTip = false
 
@@ -19,6 +22,8 @@ new Vue({
     el: '#app',
     router,
     store,
-    components: { App },
+    components: {
+        App
+    },
     template: '<App/>'
 })

@@ -48,6 +48,11 @@ export default {
         }
     },
     mounted() {
+        this.$toast({
+            location: 'center',
+            duration: 1000,
+            msg: '来了老弟'
+        })
         this.itemHeight = document.documentElement.getAttribute('data-dpr') * 44
     }
 }
